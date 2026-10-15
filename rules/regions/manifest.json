@@ -1,7 +1,7 @@
 {
   "geoip_url": "https://raw.githubusercontent.com/Loyalsoldier/geoip/release/geoip.dat",
   "geoip_sha256": "1adaeec24369b866b3398e8d46992f25293fdd7a7bf78135558bd767ac264d8b",
-  "converter": "Mihomo Meta v1.19.32 darwin arm64 with go1.22.12 Wed Sep 30 17:01:48 UTC 2026\nUse tags: with_gvisor",
+  "converter": "Mihomo Meta v1.19.32 linux amd64 with go1.26.8 Wed Sep 30 16:55:13 UTC 2026\nUse tags: with_gvisor",
   "regions": {
     "GeoRouting_America_North_GeoIP": {
       "countries": [
