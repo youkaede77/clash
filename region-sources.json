@@ -1,0 +1,18 @@
+{
+  "GeoRouting_America_North_GeoIP": "https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@latest/GeoRouting_For_IP/GeoRouting_America_North_GeoIP.yaml",
+  "GeoRouting_America_South_GeoIP": "https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@latest/GeoRouting_For_IP/GeoRouting_America_South_GeoIP.yaml",
+  "GeoRouting_Europe_West_GeoIP": "https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@latest/GeoRouting_For_IP/GeoRouting_Europe_West_GeoIP.yaml",
+  "GeoRouting_Europe_East_GeoIP": "https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@latest/GeoRouting_For_IP/GeoRouting_Europe_East_GeoIP.yaml",
+  "GeoRouting_Oceania_GeoIP": "https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@latest/GeoRouting_For_IP/GeoRouting_Oceania_GeoIP.yaml",
+  "GeoRouting_Antarctic_GeoIP": "https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@latest/GeoRouting_For_IP/GeoRouting_Antarctica_GeoIP.yaml",
+  "GeoRouting_Asia_East_GeoIP": "https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@latest/GeoRouting_For_IP/GeoRouting_Asia_East_GeoIP.yaml",
+  "GeoRouting_Asia_EastSouth_GeoIP": "https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@latest/GeoRouting_For_IP/GeoRouting_Asia_EastSouth_GeoIP.yaml",
+  "GeoRouting_Asia_South_GeoIP": "https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@latest/GeoRouting_For_IP/GeoRouting_Asia_South_GeoIP.yaml",
+  "GeoRouting_Asia_Central_GeoIP": "https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@latest/GeoRouting_For_IP/GeoRouting_Asia_Central_GeoIP.yaml",
+  "GeoRouting_Asia_West_GeoIP": "https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@latest/GeoRouting_For_IP/GeoRouting_Asia_West_GeoIP.yaml",
+  "GeoRouting_Africa_North_GeoIP": "https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@latest/GeoRouting_For_IP/GeoRouting_Africa_North_GeoIP.yaml",
+  "GeoRouting_Africa_South_GeoIP": "https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@latest/GeoRouting_For_IP/GeoRouting_Africa_South_GeoIP.yaml",
+  "GeoRouting_Africa_West_GeoIP": "https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@latest/GeoRouting_For_IP/GeoRouting_Africa_West_GeoIP.yaml",
+  "GeoRouting_Africa_East_GeoIP": "https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@latest/GeoRouting_For_IP/GeoRouting_Africa_East_GeoIP.yaml",
+  "GeoRouting_Africa_Central_GeoIP": "https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@latest/GeoRouting_For_IP/GeoRouting_Africa_Central_GeoIP.yaml"
+}
