@@ -1,0 +1,10 @@
+{
+  "source_url": "https://raw.githubusercontent.com/KaringX/clashmi/main/assets/datas/geosite.zip",
+  "archive_sha256": "b5555702db379ee1d5184147351bc2bfd27821af635aec08d65b351f4ad468db",
+  "source_mrs_sha256": "33ea0a680f44de273ec6663e1ed55001ae4e771a97d2ae94cff15580b77b9816",
+  "decoded_sha256": "d6319d0b44bebe95c2752e9d03addc86569b53a5a0b14f881ee6899bb2e9da9e",
+  "mrs_sha256": "5fb8355e8a07bfa74bdfc943ffea175b637d52ffb9039e33cf19a9e561cd5667",
+  "mrs_bytes": 545484,
+  "decoder_window_bytes": 65536,
+  "decoded_bytes_identical": true
+}
