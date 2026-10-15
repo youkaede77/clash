@@ -1,0 +1,495 @@
+{
+  "zstd_window_bytes": 65536,
+  "regions": {
+    "GeoRouting_America_North_GeoIP": {
+      "source_regions": {
+        "GeoRouting_America_North_GeoIP": "4881b02a65a860d2ca95db4a0b7bcb9d7f84fbafdba69bd5ff6c110db5c3f881"
+      },
+      "exact_coverage_verified": true,
+      "mrs_bytes": 506925,
+      "mrs_sha256": "9a41f248e658fec4952c3af2f6f2ce4dfba06e880c75ba9b33f236eb1640a55f"
+    },
+    "GeoRouting_America_South_GeoIP": {
+      "source_regions": {
+        "GeoRouting_America_South_GeoIP": "4e6f8d5698a346fca06b4a8cf42a7ff8ddc1afd010d7065e732df489d2440018"
+      },
+      "exact_coverage_verified": true,
+      "mrs_bytes": 141047,
+      "mrs_sha256": "24b5f870a1d88ed29bb3e484d2d1233880e42cda7b1f8f8372ed7f63eed895b4"
+    },
+    "GeoRouting_Europe_West_GeoIP": {
+      "source_regions": {
+        "GeoRouting_Europe_West_GeoIP": "e347772e043618512a2cbb1c08c5445d3c7256616e98c19c9395fbdce3e099ad",
+        "GeoRouting_Europe_East_GeoIP": "15d01580910d9fcd78f9ff6b9a1b7c7cfe3686fcdee428cd24d17b0d6bbdd9d5"
+      },
+      "exact_coverage_verified": true,
+      "mrs_bytes": 463799,
+      "mrs_sha256": "6d934b68f461b195b1bfd361af7b745218b8991a1aa296b011165685e76c145e"
+    },
+    "GeoRouting_Oceania_GeoIP": {
+      "source_regions": {
+        "GeoRouting_Oceania_GeoIP": "a42d8ac17cb1c7707033259b1974fd7f82a449ff0e5fbca0117ca1a3173fa2f2",
+        "GeoRouting_Antarctic_GeoIP": "1f9c62937c0113541a77b7d2d516394b99818b6dd0f4c964ba3915d1c936bd2e"
+      },
+      "exact_coverage_verified": true,
+      "mrs_bytes": 99038,
+      "mrs_sha256": "fbedf0c5648a3aa2512a3b3b69b32db37fb334e1e56e48bf5756a8396c190671"
+    },
+    "GeoRouting_Asia_East_GeoIP": {
+      "source_regions": {
+        "GeoRouting_Asia_East_GeoIP": "62cb279652d51b20e267091325647cf42ce5c24a8b92d926c18b8009a9da845d",
+        "GeoRouting_Asia_EastSouth_GeoIP": "c5c2ab13505ed48deab5853d6e792013e11745ce383166cea9fc238cf8a7d05e",
+        "GeoRouting_Asia_South_GeoIP": "eff75ca87f25842c23bd62a5f80c4f71eea16dc87f47973f84cc15cff9a2ab9d",
+        "GeoRouting_Asia_Central_GeoIP": "e99c386b9fa0ff281bed65bf2b5638457d9286ede3238b9ccdd1854d3a34bf16"
+      },
+      "exact_coverage_verified": true,
+      "mrs_bytes": 312250,
+      "mrs_sha256": "d54f405abc6a54426b7d686b35ba5293a524dc949837a7f9b3054ff166276254"
+    },
+    "GeoRouting_Asia_West_GeoIP": {
+      "source_regions": {
+        "GeoRouting_Asia_West_GeoIP": "2789a292a94376fdffa45564bc3b69b55087d4acbfc3724210db88cabbdbcd15"
+      },
+      "exact_coverage_verified": true,
+      "mrs_bytes": 119613,
+      "mrs_sha256": "cac2d06080ab868147abd8761c200c8c53a650fca8b8ae1a37d6b4f41b7438ba"
+    },
+    "GeoRouting_Africa_North_GeoIP": {
+      "source_regions": {
+        "GeoRouting_Africa_North_GeoIP": "ef3c84b13fd0a588690d0bb5f03921d42277e08018bce29ffb73a2660da97ae9",
+        "GeoRouting_Africa_South_GeoIP": "288557715d7af77078bf4ea396547ec98e12e919c58d1457330d5477b1f9196a",
+        "GeoRouting_Africa_West_GeoIP": "79637c9d99fe1556753e0299f07334fc603c3b6a3b061a44d83bf4762a0cbc3a",
+        "GeoRouting_Africa_East_GeoIP": "4f19f1d2806709748f469750083ebd10685df5dac49025d4ec8c853fb743d090",
+        "GeoRouting_Africa_Central_GeoIP": "e1322392503fc4ea38f50b76d1ee137f2298a1b5291dc7d3c9f6fd1765ae3126"
+      },
+      "exact_coverage_verified": true,
+      "mrs_bytes": 70642,
+      "mrs_sha256": "ce02d7f067927512d27e11287359f0874d3245bbb686fd727a2a4c1d69480afa"
+    }
+  },
+  "providers": {
+    "AppleAI_Domain": {
+      "url": "https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@latest/AppleAI/AppleAI_Domain.yaml",
+      "behavior": "domain",
+      "format": "yaml",
+      "source_sha256": "f2ce00d8570e4dfe02b55cf69a72693a42529cc4f88d548d97668d88f500dbf5",
+      "mrs_bytes": 175,
+      "mrs_sha256": "50bffda8d2ad46b55070405e69fbf1630a012327cc395850a28bb3719cae305d",
+      "canonical_roundtrip_verified": true
+    },
+    "Apple_Domain": {
+      "url": "https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@latest/Apple/Apple_Domain.yaml",
+      "behavior": "domain",
+      "format": "yaml",
+      "source_sha256": "2f0e9cedefe7f2182579c6c1614af3b42abb3d0f524c27a891bf8c1f378aab99",
+      "mrs_bytes": 546,
+      "mrs_sha256": "50d4a90c944fc93831bd1b117cbf7ef36cfeffed91834694473992526f57d8ae",
+      "canonical_roundtrip_verified": true
+    },
+    "Apple_IP": {
+      "url": "https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@latest/Apple/Apple_IP.yaml",
+      "behavior": "ipcidr",
+      "format": "yaml",
+      "source_sha256": "cb2cdf6afc02fed40be8ace5a14fb1c0cb0d0338423227aaf3010fe1536a4015",
+      "mrs_bytes": 47,
+      "mrs_sha256": "16ce476e12adfec76aa4a350acbbbacf9d718b55ee81ba35e9020f171a99c3c7",
+      "canonical_roundtrip_verified": true
+    },
+    "BankAU_Domain": {
+      "url": "https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@latest/Bank/BankAU_Domain.yaml",
+      "behavior": "domain",
+      "format": "yaml",
+      "source_sha256": "088ad4f4badda074acbbc96ae944d782f0e5a2b9c67ec47d9c1f3e44ce7008f0",
+      "mrs_bytes": 205,
+      "mrs_sha256": "e483a32b82a4db33d95e452f088534c1dee85d4f1c6f9aeba08c81b4b96ae098",
+      "canonical_roundtrip_verified": true
+    },
+    "BankCA_Domain": {
+      "url": "https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@latest/Bank/BankCA_Domain.yaml",
+      "behavior": "domain",
+      "format": "yaml",
+      "source_sha256": "65821b462ddfc0f8bb46494f71a76b9f52d6a6f7946714cdf309dbfe8c5f5dbc",
+      "mrs_bytes": 144,
+      "mrs_sha256": "808fc3a2b58f5e8eb535230fa6611c3b1e43af7875565e1ce7b8eb42fe2ab5f6",
+      "canonical_roundtrip_verified": true
+    },
+    "BankHK_Domain": {
+      "url": "https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@latest/Bank/BankHK_Domain.yaml",
+      "behavior": "domain",
+      "format": "yaml",
+      "source_sha256": "cdaf4eb7587671f29879a9da4acc1c8516c28fa9830fa306bfe12d8abf6fd732",
+      "mrs_bytes": 373,
+      "mrs_sha256": "cbf5cd192499b9e865cb0b3a52f79ec14e8d22297999b1835ce5939466291fa0",
+      "canonical_roundtrip_verified": true
+    },
+    "BankJP_Domain": {
+      "url": "https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@latest/Bank/BankJP_Domain.yaml",
+      "behavior": "domain",
+      "format": "yaml",
+      "source_sha256": "707d6ae631fc4faf7b9fb8b4da62b9b91b1b810f5636b3e2d214d9fd108b4f37",
+      "mrs_bytes": 148,
+      "mrs_sha256": "33dfc57e79daef6455e9ae8fe90ceffe9618b0e0c9128add97cb785d18e5f0aa",
+      "canonical_roundtrip_verified": true
+    },
+    "BankSG_Domain": {
+      "url": "https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@latest/Bank/BankSG_Domain.yaml",
+      "behavior": "domain",
+      "format": "yaml",
+      "source_sha256": "f88c71fd384fef1e36d88bc989196525d64dc52b5d808b15c5f2534f6c817653",
+      "mrs_bytes": 268,
+      "mrs_sha256": "9be2ef0c350c0d2c803704321ac818a9667d3082fa5d1473e5599601626f7790",
+      "canonical_roundtrip_verified": true
+    },
+    "BankUK_Domain": {
+      "url": "https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@latest/Bank/BankUK_Domain.yaml",
+      "behavior": "domain",
+      "format": "yaml",
+      "source_sha256": "b77f806461b5264b3a307bba3f5c05c68f91f415085c9a1d8b81797305acc8cc",
+      "mrs_bytes": 380,
+      "mrs_sha256": "43fd544d17f8fc2200b30fb8c22eaa19c2b35ca55cd242cc199a31747ba8afd0",
+      "canonical_roundtrip_verified": true
+    },
+    "BankUS_Domain": {
+      "url": "https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@latest/Bank/BankUS_Domain.yaml",
+      "behavior": "domain",
+      "format": "yaml",
+      "source_sha256": "230fe738995f84b9de5b17284e3b53c872d84aa416ed429ae00a634cb9c72f72",
+      "mrs_bytes": 677,
+      "mrs_sha256": "7133fdead70c7271b3ac847664db0b94239a99e0bd50fddc10c6c6e92b8b5e4d",
+      "canonical_roundtrip_verified": true
+    },
+    "ChinaDNS_Domain": {
+      "url": "https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@latest/ChinaDNS/ChinaDNS_Domain.yaml",
+      "behavior": "domain",
+      "format": "yaml",
+      "source_sha256": "9aa7f34942ba7022c31b9a39e34be13e5e011b03e613bef5158748df768586f7",
+      "mrs_bytes": 216,
+      "mrs_sha256": "d8929b1b6bdea1aa06b7320ade800e448323bcc287d87739300cc4eff1dc8045",
+      "canonical_roundtrip_verified": true
+    },
+    "ChinaDNS_IP": {
+      "url": "https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@latest/ChinaDNS/ChinaDNS_IP.yaml",
+      "behavior": "ipcidr",
+      "format": "yaml",
+      "source_sha256": "d0933d6f93062ed67fd85122d1a363daac6794397f90301b6f0aee609adee68f",
+      "mrs_bytes": 279,
+      "mrs_sha256": "229d5cc9f095286df1779d4568108e0ffc81a254dcbed20371a0242e6f5db741",
+      "canonical_roundtrip_verified": true
+    },
+    "Cloudflare_IPv4_Do_Resolve": {
+      "url": "https://www.cloudflare.com/ips-v4",
+      "behavior": "ipcidr",
+      "format": "text",
+      "source_sha256": "f02c6d83bc01ab0ae8577160e036d700c7455359bce054df884e5d7d9e4e9e7b",
+      "mrs_bytes": 160,
+      "mrs_sha256": "f46540a2b96ba530417768131b48c6dc6632f4ec7e9e997c60e3fb00f4895422",
+      "canonical_roundtrip_verified": true
+    },
+    "Cloudflare_IPv6_Do_Resolve": {
+      "url": "https://www.cloudflare.com/ips-v6",
+      "behavior": "ipcidr",
+      "format": "text",
+      "source_sha256": "9e9d39e3e83bad00c4decafd53c63fa62029f3d95db68de937d2be28234ca0a9",
+      "mrs_bytes": 124,
+      "mrs_sha256": "1df39611a7bb3a0418cc88a6c8e757d261402e176c8d236212226ac6660d697b",
+      "canonical_roundtrip_verified": true
+    },
+    "Copilot_Domain": {
+      "url": "https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@latest/Copilot/Copilot_Domain.yaml",
+      "behavior": "domain",
+      "format": "yaml",
+      "source_sha256": "8cd9158239f30782fe18b98967067a54c3016abbf34bd75a7840dc6f5bbd8e7e",
+      "mrs_bytes": 308,
+      "mrs_sha256": "ad81aa985670021bac9c3a46790ad45be0956c40947a9d490fc46c9f6a241242",
+      "canonical_roundtrip_verified": true
+    },
+    "Fastly_IP_Do_Resolve": {
+      "url": "https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@latest/Fastly/Fastly_IP.yaml",
+      "behavior": "ipcidr",
+      "format": "yaml",
+      "source_sha256": "9c913d8135da2508bbe0f0ff8891d8e3f6a78c1d769b4de7d0dcc441a5f754c8",
+      "mrs_bytes": 199,
+      "mrs_sha256": "e09f9bc1a6f442981989d606c4444cc9bd105740913328142a2adec41a3f46e6",
+      "canonical_roundtrip_verified": true
+    },
+    "Gemini_Domain": {
+      "url": "https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@latest/Gemini/Gemini_Domain.yaml",
+      "behavior": "domain",
+      "format": "yaml",
+      "source_sha256": "1597e126b0238d96b4f51f5667d50395e2c93d4d51b9d1c31363b1b834ca3b3d",
+      "mrs_bytes": 843,
+      "mrs_sha256": "3b193b0a0f64a3d8719754c829ce89ff81e744d69cc1e9f073fa6632742ac07d",
+      "canonical_roundtrip_verified": true
+    },
+    "GeoRouting_Africa_Central_ccTLD_Domain": {
+      "url": "https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@latest/GeoRouting_For_Domain/GeoRouting_Africa_Central_ccTLD_Domain.yaml",
+      "behavior": "domain",
+      "format": "yaml",
+      "source_sha256": "a5f74093d39f34ed83f9580ded60adb96f8d40ee90c4f0df2f0f855704701e76",
+      "mrs_bytes": 78,
+      "mrs_sha256": "4bc488b76de536f24c6fdc484fc078e86adad8992eadcfc4b8ecd86a828df38c",
+      "canonical_roundtrip_verified": true
+    },
+    "GeoRouting_Africa_East_ccTLD_Domain": {
+      "url": "https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@latest/GeoRouting_For_Domain/GeoRouting_Africa_East_ccTLD_Domain.yaml",
+      "behavior": "domain",
+      "format": "yaml",
+      "source_sha256": "1c2efa95a6f385a25215dcc721bb122ac68737a01298f3da4f44ad99b4430240",
+      "mrs_bytes": 93,
+      "mrs_sha256": "18cf5c5340cd5c4556cdd821896efe7991c919ffdb741f6ad6befcca4fe04b75",
+      "canonical_roundtrip_verified": true
+    },
+    "GeoRouting_Africa_North_ccTLD_Domain": {
+      "url": "https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@latest/GeoRouting_For_Domain/GeoRouting_Africa_North_ccTLD_Domain.yaml",
+      "behavior": "domain",
+      "format": "yaml",
+      "source_sha256": "c108de9e630ef22bdd5e3e6ce3795ebfdae6486f101ec9344f5277468f496ca3",
+      "mrs_bytes": 76,
+      "mrs_sha256": "8cc7048645ae0d3456480599453e92fcb2bfdf1835e58a79236a572136d984ac",
+      "canonical_roundtrip_verified": true
+    },
+    "GeoRouting_Africa_South_ccTLD_Domain": {
+      "url": "https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@latest/GeoRouting_For_Domain/GeoRouting_Africa_South_ccTLD_Domain.yaml",
+      "behavior": "domain",
+      "format": "yaml",
+      "source_sha256": "0579bb4a7b116f7f9fab19a644235eb7c582383842ea781581deff765cc213dd",
+      "mrs_bytes": 75,
+      "mrs_sha256": "ba225664c1f097be17955f043abcf4b14e2f9a4e96e85ad3ea6b84840622dd6b",
+      "canonical_roundtrip_verified": true
+    },
+    "GeoRouting_Africa_West_ccTLD_Domain": {
+      "url": "https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@latest/GeoRouting_For_Domain/GeoRouting_Africa_West_ccTLD_Domain.yaml",
+      "behavior": "domain",
+      "format": "yaml",
+      "source_sha256": "2164b10679acf4e6041602b24af0e417cbf8d803717e739b4d6523a3681efa9d",
+      "mrs_bytes": 93,
+      "mrs_sha256": "f5857a459dc64b04c82b094db20818f775caa2c618b97cb53021a3f97ab17a5d",
+      "canonical_roundtrip_verified": true
+    },
+    "GeoRouting_America_North_ccTLD_Domain": {
+      "url": "https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@latest/GeoRouting_For_Domain/GeoRouting_America_North_ccTLD_Domain.yaml",
+      "behavior": "domain",
+      "format": "yaml",
+      "source_sha256": "417813731faecd80eaf0e95f239ec24e4345918b39d901944b8dbddd680a07f9",
+      "mrs_bytes": 169,
+      "mrs_sha256": "8a419d8f2bf88ea9e960da9bb60137185257708f5a3d63a501ccc00430e97769",
+      "canonical_roundtrip_verified": true
+    },
+    "GeoRouting_America_South_ccTLD_Domain": {
+      "url": "https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@latest/GeoRouting_For_Domain/GeoRouting_America_South_ccTLD_Domain.yaml",
+      "behavior": "domain",
+      "format": "yaml",
+      "source_sha256": "626c86e439ab2c64cae69853d5c400b53839b90321c811088fd4ce56f206a723",
+      "mrs_bytes": 84,
+      "mrs_sha256": "656a593307600fe492854db09b2dd3f367cc9692be9cbd0d74d851b2f28c9aac",
+      "canonical_roundtrip_verified": true
+    },
+    "GeoRouting_Antarctica_ccTLD_Domain": {
+      "url": "https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@latest/GeoRouting_For_Domain/GeoRouting_Antarctica_ccTLD_Domain.yaml",
+      "behavior": "domain",
+      "format": "yaml",
+      "source_sha256": "b4e9609682b334dfc87dabce3bea01c8bf634a6b3a872aaf1732d9b17f198e98",
+      "mrs_bytes": 57,
+      "mrs_sha256": "8f4670ed7cdebb1bd55bc023c8d114b282aaf62cb8cfc4ae995242efacb80506",
+      "canonical_roundtrip_verified": true
+    },
+    "GeoRouting_Asia_Central_ccTLD_Domain": {
+      "url": "https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@latest/GeoRouting_For_Domain/GeoRouting_Asia_Central_ccTLD_Domain.yaml",
+      "behavior": "domain",
+      "format": "yaml",
+      "source_sha256": "6deb0cacefef136cfebebfec2ccd5dafd27d302578a8583af87fac3b4dbeec2f",
+      "mrs_bytes": 64,
+      "mrs_sha256": "c723f04bd6b384f4056026db116c0a77b377f7c7ffac1d0b37195ddfb8faab80",
+      "canonical_roundtrip_verified": true
+    },
+    "GeoRouting_Asia_EastSouth_ccTLD_Domain": {
+      "url": "https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@latest/GeoRouting_For_Domain/GeoRouting_Asia_EastSouth_ccTLD_Domain.yaml",
+      "behavior": "domain",
+      "format": "yaml",
+      "source_sha256": "23caa7bbb4e7f712de70735f62bdb6577208f2c588f80d62c8466af04eb2e082",
+      "mrs_bytes": 76,
+      "mrs_sha256": "fd98f58ce82ad6ac37e591c1b80de030b3381a09f47fd9fb788d90db5ada1aad",
+      "canonical_roundtrip_verified": true
+    },
+    "GeoRouting_Asia_East_ccTLD_Domain": {
+      "url": "https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@latest/GeoRouting_For_Domain/GeoRouting_Asia_East_ccTLD_Domain.yaml",
+      "behavior": "domain",
+      "format": "yaml",
+      "source_sha256": "2c742991551a05ae14555903c13727bba9501b2b2b30e48091a756f5999a35d7",
+      "mrs_bytes": 80,
+      "mrs_sha256": "6cb34577da0f1d0f0bc01620901b9482be11ac0e15ca30299051427615a609d4",
+      "canonical_roundtrip_verified": true
+    },
+    "GeoRouting_Asia_South_ccTLD_Domain": {
+      "url": "https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@latest/GeoRouting_For_Domain/GeoRouting_Asia_South_ccTLD_Domain.yaml",
+      "behavior": "domain",
+      "format": "yaml",
+      "source_sha256": "c1f66fa824b9efaceba7c675534f5230c55b8c6a0e400fc5d3e248fc54748b47",
+      "mrs_bytes": 83,
+      "mrs_sha256": "d5eb71931c764cb8ee95b6161b03e731cebe90c5da32fee409157ab9ac2a95cc",
+      "canonical_roundtrip_verified": true
+    },
+    "GeoRouting_Asia_West_ccTLD_Domain": {
+      "url": "https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@latest/GeoRouting_For_Domain/GeoRouting_Asia_West_ccTLD_Domain.yaml",
+      "behavior": "domain",
+      "format": "yaml",
+      "source_sha256": "f41fb5a8796edc1efb9ce6d22097616ddf4a5a573d98a738e699f0bd0c5f9707",
+      "mrs_bytes": 101,
+      "mrs_sha256": "b0e6b2c1da3feb245b40d1d3282389a756a7a49508dc90b899e74fd859899b9e",
+      "canonical_roundtrip_verified": true
+    },
+    "GeoRouting_Europe_East_ccTLD_Domain": {
+      "url": "https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@latest/GeoRouting_For_Domain/GeoRouting_Europe_East_ccTLD_Domain.yaml",
+      "behavior": "domain",
+      "format": "yaml",
+      "source_sha256": "0b7c39a609f0c5f7e1fc81e97b6dc51306c9ad7edaacd0cd9c8b62ce3caa3e03",
+      "mrs_bytes": 104,
+      "mrs_sha256": "b6af6a7bd86df41021da2b6fc169d7e325b963fbc548cb8f661dffe5dd28fed6",
+      "canonical_roundtrip_verified": true
+    },
+    "GeoRouting_Europe_West_ccTLD_Domain": {
+      "url": "https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@latest/GeoRouting_For_Domain/GeoRouting_Europe_West_ccTLD_Domain.yaml",
+      "behavior": "domain",
+      "format": "yaml",
+      "source_sha256": "7249b2acb42eda53bceaea86f05ea82db0126f7ecdc18bfda6c557f03c06d8db",
+      "mrs_bytes": 116,
+      "mrs_sha256": "5f432a22629e4b24da9b1f6b85f1ec2f047388e6c3c079e0cf7a7b5ce6e4a161",
+      "canonical_roundtrip_verified": true
+    },
+    "GeoRouting_Oceania_ccTLD_Domain": {
+      "url": "https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@latest/GeoRouting_For_Domain/GeoRouting_Oceania_ccTLD_Domain.yaml",
+      "behavior": "domain",
+      "format": "yaml",
+      "source_sha256": "35e1828581940877e5b81917906a62e51f181251b5ec072b5ff9217d86dddb9b",
+      "mrs_bytes": 104,
+      "mrs_sha256": "dbfd224f94e7bdbc284041f1a7f7e3ffa671c248ddf286865007932b5c872c19",
+      "canonical_roundtrip_verified": true
+    },
+    "GeositeCN_Domain": {
+      "url": "https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@latest/GeositeCN/GeositeCN_Domain.yaml",
+      "behavior": "domain",
+      "format": "yaml",
+      "source_sha256": "0c9f7f991f37b38bdf354b8f56f4de12a6c6957ea2d28a389adc0a8026094f4b",
+      "mrs_bytes": 32322,
+      "mrs_sha256": "43ac379a76b4d4edaf9295689ae187a53fc53d8cc8c9d1acb459add2054ce16f",
+      "canonical_roundtrip_verified": true
+    },
+    "GlobalDNS_Domain": {
+      "url": "https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@latest/GlobalDNS/GlobalDNS_Domain.yaml",
+      "behavior": "domain",
+      "format": "yaml",
+      "source_sha256": "9079d8be0d08365f0bf81aa0348606580a76f0fa58804c3a9c36e1c56f7c8a57",
+      "mrs_bytes": 1828,
+      "mrs_sha256": "aaf06a1fe7d9215955e9c70f2b2199fb7bf4d63d6d3041d7a84790d73ec721ae",
+      "canonical_roundtrip_verified": true
+    },
+    "GlobalDNS_IP": {
+      "url": "https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@latest/GlobalDNS/GlobalDNS_IP.yaml",
+      "behavior": "ipcidr",
+      "format": "yaml",
+      "source_sha256": "ac64fd6fcdfe7e5496ea077ef81f264943716de3f611cec32d89a18c908df936",
+      "mrs_bytes": 1840,
+      "mrs_sha256": "66623afa7997e0d375a61bb6fa651b91032f6d31ec6cf2608a0f91c3ba7207b3",
+      "canonical_roundtrip_verified": true
+    },
+    "Grok_Domain": {
+      "url": "https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@latest/Grok/Grok_Domain.yaml",
+      "behavior": "domain",
+      "format": "yaml",
+      "source_sha256": "4ddce84477869bccaf01fea348f801075707e154c00fc5b817e26574e1ce84a6",
+      "mrs_bytes": 117,
+      "mrs_sha256": "4470f9ab7f9e847ce117e964c61975ebf238068b521312c93ade221d4d6c5832",
+      "canonical_roundtrip_verified": true
+    },
+    "Kwai_Domain": {
+      "url": "https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@latest/Kwai/Kwai_Domain.yaml",
+      "behavior": "domain",
+      "format": "yaml",
+      "source_sha256": "9a75051308dbf5987352339803bf46916731fb93603d748554fed8d76da8064a",
+      "mrs_bytes": 228,
+      "mrs_sha256": "83926c4981b6b3f9c2b2b1d1e2757207d40d54159bc6426ffa3aa53ba996eb09",
+      "canonical_roundtrip_verified": true
+    },
+    "MacAppUpgrade_Domain": {
+      "url": "https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@latest/MacAppUpgrade/MacAppUpgrade_Domain.yaml",
+      "behavior": "domain",
+      "format": "yaml",
+      "source_sha256": "7c1a6abcccd20ee2cd4ab37f51ef6ec2bb8ab91d6693801dc7323006bbe9994a",
+      "mrs_bytes": 5714,
+      "mrs_sha256": "16f93a458a6f093963c1ab561eaf11e11e3d9e14e62c41d8ba7e990e653d4be9",
+      "canonical_roundtrip_verified": true
+    },
+    "MicrosoftAPPs_Domain": {
+      "url": "https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@latest/MicrosoftAPPs/MicrosoftAPPs_Domain.yaml",
+      "behavior": "domain",
+      "format": "yaml",
+      "source_sha256": "f4f288806d42beb0d826be0aa4002f567a77d9c298a83752fb4f6f0e52f2cbd9",
+      "mrs_bytes": 1280,
+      "mrs_sha256": "ba92eed11c9dd2f21b11fe0aa04f3c2d8c8524cc066b36283d5b73504848b477",
+      "canonical_roundtrip_verified": true
+    },
+    "Parsec_Domain": {
+      "url": "https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@latest/Parsec/Parsec_Domain.yaml",
+      "behavior": "domain",
+      "format": "yaml",
+      "source_sha256": "6012f88d2b56f898df1de8dea7c696eef5c61bee699fe5c9b5a22129ffab4cc8",
+      "mrs_bytes": 51,
+      "mrs_sha256": "b1f735fb5343f8eca801faa0cefbf39379d6c741cca4540b52f694b39bb67876",
+      "canonical_roundtrip_verified": true
+    },
+    "Pornhub_Domain": {
+      "url": "https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@latest/Pornhub/Pornhub_Domain.yaml",
+      "behavior": "domain",
+      "format": "yaml",
+      "source_sha256": "60d1ec950b229278ba12393e94d785901679e46f2dfa65f3706750aa845c95da",
+      "mrs_bytes": 326,
+      "mrs_sha256": "6695f94586734d94bd2ad9d8708762e0d7441e9b69b1b98811760bf96985a8e0",
+      "canonical_roundtrip_verified": true
+    },
+    "RustDesk_Domain": {
+      "url": "https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@latest/RustDesk/RustDesk_Domain.yaml",
+      "behavior": "domain",
+      "format": "yaml",
+      "source_sha256": "c739d307bf1337e2a8f3a73cd01cc43a9e6b5581aacd41a93ad8a9e0f545219f",
+      "mrs_bytes": 91,
+      "mrs_sha256": "1af656ec3ab62005ba404cb117f59133a37c5b21cd991a9d06ab1cdfbcb7045d",
+      "canonical_roundtrip_verified": true
+    },
+    "Signal_Domain": {
+      "url": "https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@latest/Signal/Signal_Domain.yaml",
+      "behavior": "domain",
+      "format": "yaml",
+      "source_sha256": "119a5c31f040c8e5f679077ee7f045e21bac5dacd65cf2abb9a0f65bc7229c17",
+      "mrs_bytes": 85,
+      "mrs_sha256": "b96f346bf76a50c73a0f2561b9fedc798df3f050d3955c2bf4902bb7299e8dda",
+      "canonical_roundtrip_verified": true
+    },
+    "WaybackMachine_Domain": {
+      "url": "https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@latest/WaybackMachine/WaybackMachine_Domain.yaml",
+      "behavior": "domain",
+      "format": "yaml",
+      "source_sha256": "4f4948937f685e81ad0d916f2e583c061ccd5fc968b3ddfeddd49e76a860551a",
+      "mrs_bytes": 52,
+      "mrs_sha256": "a96dcdc4e86b7a7ffb7f641a369bfb24abb5d4b13ff2ebc67e45c1cff2d4dd1c",
+      "canonical_roundtrip_verified": true
+    },
+    "WaybackMachine_IP": {
+      "url": "https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@latest/WaybackMachine/WaybackMachine_IP.yaml",
+      "behavior": "ipcidr",
+      "format": "yaml",
+      "source_sha256": "9f82ac49b8ebe30b9f4e83e1e6438aa8a2e2eaad74cb8239fc4e8ec07516ae5f",
+      "mrs_bytes": 89,
+      "mrs_sha256": "5f063f67adb48c4d2da08f9d276bc597cc8d37ad7ff084c14845670ec7be4129",
+      "canonical_roundtrip_verified": true
+    },
+    "eMuleServer_IP": {
+      "url": "https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@latest/eMuleServer/eMuleServer_IP.yaml",
+      "behavior": "ipcidr",
+      "format": "yaml",
+      "source_sha256": "0554eb44ec2f13f794aacf0f72918df5bd57cb21eab27d72820b8bd5c6115568",
+      "mrs_bytes": 293,
+      "mrs_sha256": "c0befd49dce9164dd5c460355c44895221456d15f79a3410bf0ee8b83a7e101d",
+      "canonical_roundtrip_verified": true
+    }
+  }
+}

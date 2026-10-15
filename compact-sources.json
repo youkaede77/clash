@@ -1,0 +1,271 @@
+{
+  "regions": {
+    "GeoRouting_America_North_GeoIP": [
+      "GeoRouting_America_North_GeoIP"
+    ],
+    "GeoRouting_America_South_GeoIP": [
+      "GeoRouting_America_South_GeoIP"
+    ],
+    "GeoRouting_Europe_West_GeoIP": [
+      "GeoRouting_Europe_West_GeoIP",
+      "GeoRouting_Europe_East_GeoIP"
+    ],
+    "GeoRouting_Oceania_GeoIP": [
+      "GeoRouting_Oceania_GeoIP",
+      "GeoRouting_Antarctic_GeoIP"
+    ],
+    "GeoRouting_Asia_East_GeoIP": [
+      "GeoRouting_Asia_East_GeoIP",
+      "GeoRouting_Asia_EastSouth_GeoIP",
+      "GeoRouting_Asia_South_GeoIP",
+      "GeoRouting_Asia_Central_GeoIP"
+    ],
+    "GeoRouting_Asia_West_GeoIP": [
+      "GeoRouting_Asia_West_GeoIP"
+    ],
+    "GeoRouting_Africa_North_GeoIP": [
+      "GeoRouting_Africa_North_GeoIP",
+      "GeoRouting_Africa_South_GeoIP",
+      "GeoRouting_Africa_West_GeoIP",
+      "GeoRouting_Africa_East_GeoIP",
+      "GeoRouting_Africa_Central_GeoIP"
+    ]
+  },
+  "providers": {
+    "AppleAI_Domain": {
+      "url": "https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@latest/AppleAI/AppleAI_Domain.yaml",
+      "behavior": "domain",
+      "format": "yaml"
+    },
+    "Apple_Domain": {
+      "url": "https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@latest/Apple/Apple_Domain.yaml",
+      "behavior": "domain",
+      "format": "yaml"
+    },
+    "Apple_IP": {
+      "url": "https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@latest/Apple/Apple_IP.yaml",
+      "behavior": "ipcidr",
+      "format": "yaml"
+    },
+    "BankAU_Domain": {
+      "url": "https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@latest/Bank/BankAU_Domain.yaml",
+      "behavior": "domain",
+      "format": "yaml"
+    },
+    "BankCA_Domain": {
+      "url": "https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@latest/Bank/BankCA_Domain.yaml",
+      "behavior": "domain",
+      "format": "yaml"
+    },
+    "BankHK_Domain": {
+      "url": "https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@latest/Bank/BankHK_Domain.yaml",
+      "behavior": "domain",
+      "format": "yaml"
+    },
+    "BankJP_Domain": {
+      "url": "https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@latest/Bank/BankJP_Domain.yaml",
+      "behavior": "domain",
+      "format": "yaml"
+    },
+    "BankSG_Domain": {
+      "url": "https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@latest/Bank/BankSG_Domain.yaml",
+      "behavior": "domain",
+      "format": "yaml"
+    },
+    "BankUK_Domain": {
+      "url": "https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@latest/Bank/BankUK_Domain.yaml",
+      "behavior": "domain",
+      "format": "yaml"
+    },
+    "BankUS_Domain": {
+      "url": "https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@latest/Bank/BankUS_Domain.yaml",
+      "behavior": "domain",
+      "format": "yaml"
+    },
+    "ChinaDNS_Domain": {
+      "url": "https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@latest/ChinaDNS/ChinaDNS_Domain.yaml",
+      "behavior": "domain",
+      "format": "yaml"
+    },
+    "ChinaDNS_IP": {
+      "url": "https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@latest/ChinaDNS/ChinaDNS_IP.yaml",
+      "behavior": "ipcidr",
+      "format": "yaml"
+    },
+    "Cloudflare_IPv4_Do_Resolve": {
+      "url": "https://www.cloudflare.com/ips-v4",
+      "behavior": "ipcidr",
+      "format": "text"
+    },
+    "Cloudflare_IPv6_Do_Resolve": {
+      "url": "https://www.cloudflare.com/ips-v6",
+      "behavior": "ipcidr",
+      "format": "text"
+    },
+    "Copilot_Domain": {
+      "url": "https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@latest/Copilot/Copilot_Domain.yaml",
+      "behavior": "domain",
+      "format": "yaml"
+    },
+    "Fastly_IP_Do_Resolve": {
+      "url": "https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@latest/Fastly/Fastly_IP.yaml",
+      "behavior": "ipcidr",
+      "format": "yaml"
+    },
+    "Gemini_Domain": {
+      "url": "https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@latest/Gemini/Gemini_Domain.yaml",
+      "behavior": "domain",
+      "format": "yaml"
+    },
+    "GeoRouting_Africa_Central_ccTLD_Domain": {
+      "url": "https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@latest/GeoRouting_For_Domain/GeoRouting_Africa_Central_ccTLD_Domain.yaml",
+      "behavior": "domain",
+      "format": "yaml"
+    },
+    "GeoRouting_Africa_East_ccTLD_Domain": {
+      "url": "https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@latest/GeoRouting_For_Domain/GeoRouting_Africa_East_ccTLD_Domain.yaml",
+      "behavior": "domain",
+      "format": "yaml"
+    },
+    "GeoRouting_Africa_North_ccTLD_Domain": {
+      "url": "https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@latest/GeoRouting_For_Domain/GeoRouting_Africa_North_ccTLD_Domain.yaml",
+      "behavior": "domain",
+      "format": "yaml"
+    },
+    "GeoRouting_Africa_South_ccTLD_Domain": {
+      "url": "https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@latest/GeoRouting_For_Domain/GeoRouting_Africa_South_ccTLD_Domain.yaml",
+      "behavior": "domain",
+      "format": "yaml"
+    },
+    "GeoRouting_Africa_West_ccTLD_Domain": {
+      "url": "https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@latest/GeoRouting_For_Domain/GeoRouting_Africa_West_ccTLD_Domain.yaml",
+      "behavior": "domain",
+      "format": "yaml"
+    },
+    "GeoRouting_America_North_ccTLD_Domain": {
+      "url": "https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@latest/GeoRouting_For_Domain/GeoRouting_America_North_ccTLD_Domain.yaml",
+      "behavior": "domain",
+      "format": "yaml"
+    },
+    "GeoRouting_America_South_ccTLD_Domain": {
+      "url": "https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@latest/GeoRouting_For_Domain/GeoRouting_America_South_ccTLD_Domain.yaml",
+      "behavior": "domain",
+      "format": "yaml"
+    },
+    "GeoRouting_Antarctica_ccTLD_Domain": {
+      "url": "https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@latest/GeoRouting_For_Domain/GeoRouting_Antarctica_ccTLD_Domain.yaml",
+      "behavior": "domain",
+      "format": "yaml"
+    },
+    "GeoRouting_Asia_Central_ccTLD_Domain": {
+      "url": "https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@latest/GeoRouting_For_Domain/GeoRouting_Asia_Central_ccTLD_Domain.yaml",
+      "behavior": "domain",
+      "format": "yaml"
+    },
+    "GeoRouting_Asia_EastSouth_ccTLD_Domain": {
+      "url": "https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@latest/GeoRouting_For_Domain/GeoRouting_Asia_EastSouth_ccTLD_Domain.yaml",
+      "behavior": "domain",
+      "format": "yaml"
+    },
+    "GeoRouting_Asia_East_ccTLD_Domain": {
+      "url": "https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@latest/GeoRouting_For_Domain/GeoRouting_Asia_East_ccTLD_Domain.yaml",
+      "behavior": "domain",
+      "format": "yaml"
+    },
+    "GeoRouting_Asia_South_ccTLD_Domain": {
+      "url": "https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@latest/GeoRouting_For_Domain/GeoRouting_Asia_South_ccTLD_Domain.yaml",
+      "behavior": "domain",
+      "format": "yaml"
+    },
+    "GeoRouting_Asia_West_ccTLD_Domain": {
+      "url": "https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@latest/GeoRouting_For_Domain/GeoRouting_Asia_West_ccTLD_Domain.yaml",
+      "behavior": "domain",
+      "format": "yaml"
+    },
+    "GeoRouting_Europe_East_ccTLD_Domain": {
+      "url": "https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@latest/GeoRouting_For_Domain/GeoRouting_Europe_East_ccTLD_Domain.yaml",
+      "behavior": "domain",
+      "format": "yaml"
+    },
+    "GeoRouting_Europe_West_ccTLD_Domain": {
+      "url": "https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@latest/GeoRouting_For_Domain/GeoRouting_Europe_West_ccTLD_Domain.yaml",
+      "behavior": "domain",
+      "format": "yaml"
+    },
+    "GeoRouting_Oceania_ccTLD_Domain": {
+      "url": "https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@latest/GeoRouting_For_Domain/GeoRouting_Oceania_ccTLD_Domain.yaml",
+      "behavior": "domain",
+      "format": "yaml"
+    },
+    "GeositeCN_Domain": {
+      "url": "https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@latest/GeositeCN/GeositeCN_Domain.yaml",
+      "behavior": "domain",
+      "format": "yaml"
+    },
+    "GlobalDNS_Domain": {
+      "url": "https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@latest/GlobalDNS/GlobalDNS_Domain.yaml",
+      "behavior": "domain",
+      "format": "yaml"
+    },
+    "GlobalDNS_IP": {
+      "url": "https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@latest/GlobalDNS/GlobalDNS_IP.yaml",
+      "behavior": "ipcidr",
+      "format": "yaml"
+    },
+    "Grok_Domain": {
+      "url": "https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@latest/Grok/Grok_Domain.yaml",
+      "behavior": "domain",
+      "format": "yaml"
+    },
+    "Kwai_Domain": {
+      "url": "https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@latest/Kwai/Kwai_Domain.yaml",
+      "behavior": "domain",
+      "format": "yaml"
+    },
+    "MacAppUpgrade_Domain": {
+      "url": "https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@latest/MacAppUpgrade/MacAppUpgrade_Domain.yaml",
+      "behavior": "domain",
+      "format": "yaml"
+    },
+    "MicrosoftAPPs_Domain": {
+      "url": "https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@latest/MicrosoftAPPs/MicrosoftAPPs_Domain.yaml",
+      "behavior": "domain",
+      "format": "yaml"
+    },
+    "Parsec_Domain": {
+      "url": "https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@latest/Parsec/Parsec_Domain.yaml",
+      "behavior": "domain",
+      "format": "yaml"
+    },
+    "Pornhub_Domain": {
+      "url": "https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@latest/Pornhub/Pornhub_Domain.yaml",
+      "behavior": "domain",
+      "format": "yaml"
+    },
+    "RustDesk_Domain": {
+      "url": "https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@latest/RustDesk/RustDesk_Domain.yaml",
+      "behavior": "domain",
+      "format": "yaml"
+    },
+    "Signal_Domain": {
+      "url": "https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@latest/Signal/Signal_Domain.yaml",
+      "behavior": "domain",
+      "format": "yaml"
+    },
+    "WaybackMachine_Domain": {
+      "url": "https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@latest/WaybackMachine/WaybackMachine_Domain.yaml",
+      "behavior": "domain",
+      "format": "yaml"
+    },
+    "WaybackMachine_IP": {
+      "url": "https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@latest/WaybackMachine/WaybackMachine_IP.yaml",
+      "behavior": "ipcidr",
+      "format": "yaml"
+    },
+    "eMuleServer_IP": {
+      "url": "https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@latest/eMuleServer/eMuleServer_IP.yaml",
+      "behavior": "ipcidr",
+      "format": "yaml"
+    }
+  }
+}

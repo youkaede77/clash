@@ -11,6 +11,9 @@ name: Update regional IP rules
       - 'scripts/geoip_reader.py'
       - 'scripts/test_regions.py'
       - 'region-sources.json'
+      - 'scripts/build_compact.py'
+      - 'scripts/test_compact.py'
+      - 'compact-sources.json'
 permissions:
   contents: read
 concurrency:
@@ -52,11 +55,18 @@ jobs:
             --mihomo "$RUNNER_TEMP/regional-ip/mihomo" \
             --source-url https://raw.githubusercontent.com/Loyalsoldier/geoip/release/geoip.dat \
             --output rules/regions
+      - name: Build compact rules with coverage and canonical round-trip checks
+        run: |
+          python3 scripts/build_compact.py \
+            --regions rules/regions \
+            --mihomo "$RUNNER_TEMP/regional-ip/mihomo" \
+            --output rules/compact
       - name: Publish only verified public rules
         shell: bash
         run: |
           set -euo pipefail
           git add -- rules/regions/*.mrs rules/regions/manifest.json
+          git add -- rules/compact/*.mrs rules/compact/manifest.json
           if git diff --cached --quiet; then exit 0; fi
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
