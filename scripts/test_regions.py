@@ -4,7 +4,8 @@ import json,tempfile
 from pathlib import Path
 from types import SimpleNamespace
 from unittest.mock import patch
-from build_regions import build
+from compression import zstd
+from build_regions import build, small_window_mrs
 from build_regions import coverage, merge, parse_region
 from geoip_reader import fields, read_geo
 
@@ -33,6 +34,21 @@ def country(code, networks, inverse=False):
 
 
 class RegionTests(unittest.TestCase):
+    def test_recompression_preserves_binary_payload_and_bounds_window(self):
+        payload = bytes(range(256)) * 4096
+        original = zstd.compress(payload)
+        result = small_window_mrs(original)
+        self.assertEqual(zstd.decompress(result), payload)
+        self.assertFalse(result[4] & 32)
+        descriptor = result[5]
+        window = (1 << (10 + (descriptor >> 3))) * (8 + (descriptor & 7)) // 8
+        self.assertLessEqual(window, 65536)
+        self.assertTrue(result[4] & 4)  # Keep an integrity checksum.
+
+    def test_recompression_rejects_corrupt_input(self):
+        with self.assertRaises(zstd.ZstdError):
+            small_window_mrs(b'not a zstd frame')
+
     def test_country_data_supports_both_families(self):
         nets = ['192.0.2.0/24', '2001:db8::/32']
         self.assertEqual(read_geo(country('US', nets)), {'us': [ipaddress.ip_network(n) for n in nets]})

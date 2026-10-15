@@ -25,13 +25,15 @@ rule-providers:
 
 ## 校验与本地重建
 
-使用 Python 3 标准库、curl 和 Mihomo：
+使用 Python 3.14 标准库（含 compression.zstd）、curl 和 Mihomo：
 
 ```sh
 python3 -m unittest discover -s scripts -p 'test_*.py' -v
 curl --fail --location https://raw.githubusercontent.com/Loyalsoldier/geoip/release/geoip.dat -o /tmp/geoip.dat
 python3 scripts/build_regions.py --geoip /tmp/geoip.dat --mihomo /path/to/mihomo --source-url https://raw.githubusercontent.com/Loyalsoldier/geoip/release/geoip.dat --output rules/regions
 ```
+
+MRS 的 Zstandard 解压窗口限制为 64 KiB，并保留内容校验和。重新压缩前后逐字节验证解码内容相同，以降低并发初始化时的解压缓冲开销；不改变 IP 网段或自动更新方式。
 
 构建先按 IPv4 / IPv6 分别合并网段，再用独立的整数区间并集校验覆盖范围，最后将 MRS 解码回 CIDR 再次校验。不会为了缩小文件而扩大、缩减 IP 覆盖或忽略 IPv6。上游重复的国家规则会去重；其他未知语义会报错。
 

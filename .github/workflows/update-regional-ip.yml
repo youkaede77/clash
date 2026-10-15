@@ -27,6 +27,9 @@ jobs:
         with:
           ref: main
           persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.14'
       - name: Test region builder
         run: python3 -m unittest discover -s scripts -p 'test_*.py' -v
       - name: Download verified converter and current GeoIP data

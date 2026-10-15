@@ -1,11 +1,32 @@
 """Build public regional IP sets only; never reads a Clash client configuration."""
 import argparse, hashlib, ipaddress, json, re, shutil, subprocess, tempfile
 from pathlib import Path
+from compression import zstd
 from geoip_reader import read_geo
 
 
 def sha(data):
     return hashlib.sha256(data).hexdigest()
+
+
+def small_window_mrs(data):
+    """Preserve decoded MRS bytes while limiting decoder history to 64 KiB."""
+    payload = zstd.decompress(data)
+    result = zstd.compress(payload, options={
+        zstd.CompressionParameter.compression_level: 3,
+        zstd.CompressionParameter.window_log: 16,
+        zstd.CompressionParameter.content_size_flag: 0,
+        zstd.CompressionParameter.checksum_flag: 1,
+    })
+    if zstd.decompress(result) != payload:
+        raise ValueError('MRS recompression changed decoded bytes')
+    if result[:4] != b'\x28\xb5\x2f\xfd' or result[4] & 32:
+        raise ValueError('Unexpected Zstandard frame header')
+    descriptor = result[5]
+    window = (1 << (10 + (descriptor >> 3))) * (8 + (descriptor & 7)) // 8
+    if window > 65536:
+        raise ValueError('Zstandard decoder window exceeds 64 KiB')
+    return result
 
 
 def parse_region(text):
@@ -50,7 +71,7 @@ def build(args):
     data=Path(args.geoip).read_bytes()
     geo=read_geo(data)
     version=subprocess.check_output([args.mihomo,'-v'],text=True).strip()
-    manifest={'geoip_url':args.source_url,'geoip_sha256':sha(data),'converter':version,'regions':{}}
+    manifest={'geoip_url':args.source_url,'geoip_sha256':sha(data),'converter':version,'zstd_window_bytes':65536,'regions':{}}
     mapping=json.loads(Path(args.mapping).read_text()) if args.mapping else None
     out=Path(args.output);out.parent.mkdir(parents=True,exist_ok=True)
     # No published outputs are changed until every region and round trip passes.
@@ -72,6 +93,7 @@ def build(args):
             source=stage/(name+'.txt');source.write_text(''.join(str(n)+'\n' for n in merged))
             mrs=published/(name+'.mrs');roundtrip=stage/(name+'.roundtrip.txt')
             subprocess.run([args.mihomo,'convert-ruleset','ipcidr','text',str(source),str(mrs)],check=True,stdout=subprocess.DEVNULL)
+            mrs.write_bytes(small_window_mrs(mrs.read_bytes()))
             subprocess.run([args.mihomo,'convert-ruleset','ipcidr','mrs',str(mrs),str(roundtrip)],check=True,stdout=subprocess.DEVNULL)
             restored=[ipaddress.ip_network(line) for line in roundtrip.read_text().splitlines() if line and not line.startswith('#')]
             if coverage(restored)!=coverage(nets):raise ValueError('MRS round trip changed coverage: '+name)
