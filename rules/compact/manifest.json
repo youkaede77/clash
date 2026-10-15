@@ -6,16 +6,16 @@
         "GeoRouting_America_North_GeoIP": "4881b02a65a860d2ca95db4a0b7bcb9d7f84fbafdba69bd5ff6c110db5c3f881"
       },
       "exact_coverage_verified": true,
-      "mrs_bytes": 506925,
-      "mrs_sha256": "9a41f248e658fec4952c3af2f6f2ce4dfba06e880c75ba9b33f236eb1640a55f"
+      "mrs_bytes": 504862,
+      "mrs_sha256": "4881b02a65a860d2ca95db4a0b7bcb9d7f84fbafdba69bd5ff6c110db5c3f881"
     },
     "GeoRouting_America_South_GeoIP": {
       "source_regions": {
         "GeoRouting_America_South_GeoIP": "4e6f8d5698a346fca06b4a8cf42a7ff8ddc1afd010d7065e732df489d2440018"
       },
       "exact_coverage_verified": true,
-      "mrs_bytes": 141047,
-      "mrs_sha256": "24b5f870a1d88ed29bb3e484d2d1233880e42cda7b1f8f8372ed7f63eed895b4"
+      "mrs_bytes": 141087,
+      "mrs_sha256": "4e6f8d5698a346fca06b4a8cf42a7ff8ddc1afd010d7065e732df489d2440018"
     },
     "GeoRouting_Europe_West_GeoIP": {
       "source_regions": {
@@ -23,8 +23,8 @@
         "GeoRouting_Europe_East_GeoIP": "15d01580910d9fcd78f9ff6b9a1b7c7cfe3686fcdee428cd24d17b0d6bbdd9d5"
       },
       "exact_coverage_verified": true,
-      "mrs_bytes": 463799,
-      "mrs_sha256": "6d934b68f461b195b1bfd361af7b745218b8991a1aa296b011165685e76c145e"
+      "mrs_bytes": 463457,
+      "mrs_sha256": "732482455eda75ff2cc9a31f9ed32b0f09882763a189996ec186c7db91748ad3"
     },
     "GeoRouting_Oceania_GeoIP": {
       "source_regions": {
@@ -32,8 +32,8 @@
         "GeoRouting_Antarctic_GeoIP": "1f9c62937c0113541a77b7d2d516394b99818b6dd0f4c964ba3915d1c936bd2e"
       },
       "exact_coverage_verified": true,
-      "mrs_bytes": 99038,
-      "mrs_sha256": "fbedf0c5648a3aa2512a3b3b69b32db37fb334e1e56e48bf5756a8396c190671"
+      "mrs_bytes": 98945,
+      "mrs_sha256": "11829d9b434d6520116d3a69b83ab9f7d957e9746c9f4790e1b8cfa7ebf6e943"
     },
     "GeoRouting_Asia_East_GeoIP": {
       "source_regions": {
@@ -43,16 +43,16 @@
         "GeoRouting_Asia_Central_GeoIP": "e99c386b9fa0ff281bed65bf2b5638457d9286ede3238b9ccdd1854d3a34bf16"
       },
       "exact_coverage_verified": true,
-      "mrs_bytes": 312250,
-      "mrs_sha256": "d54f405abc6a54426b7d686b35ba5293a524dc949837a7f9b3054ff166276254"
+      "mrs_bytes": 311736,
+      "mrs_sha256": "0e7bf7356246aee8a5702f63ffd7c0676544d80e1c20e2a0f015a7d39f5d3c45"
     },
     "GeoRouting_Asia_West_GeoIP": {
       "source_regions": {
         "GeoRouting_Asia_West_GeoIP": "2789a292a94376fdffa45564bc3b69b55087d4acbfc3724210db88cabbdbcd15"
       },
       "exact_coverage_verified": true,
-      "mrs_bytes": 119613,
-      "mrs_sha256": "cac2d06080ab868147abd8761c200c8c53a650fca8b8ae1a37d6b4f41b7438ba"
+      "mrs_bytes": 119436,
+      "mrs_sha256": "2789a292a94376fdffa45564bc3b69b55087d4acbfc3724210db88cabbdbcd15"
     },
     "GeoRouting_Africa_North_GeoIP": {
       "source_regions": {
@@ -63,8 +63,8 @@
         "GeoRouting_Africa_Central_GeoIP": "e1322392503fc4ea38f50b76d1ee137f2298a1b5291dc7d3c9f6fd1765ae3126"
       },
       "exact_coverage_verified": true,
-      "mrs_bytes": 70642,
-      "mrs_sha256": "ce02d7f067927512d27e11287359f0874d3245bbb686fd727a2a4c1d69480afa"
+      "mrs_bytes": 70538,
+      "mrs_sha256": "89b83b30053bb57c406eebccfb2f701d950ce9e4948843973487320489975c9f"
     }
   },
   "providers": {
@@ -271,8 +271,8 @@
       "behavior": "domain",
       "format": "yaml",
       "source_sha256": "417813731faecd80eaf0e95f239ec24e4345918b39d901944b8dbddd680a07f9",
-      "mrs_bytes": 169,
-      "mrs_sha256": "8a419d8f2bf88ea9e960da9bb60137185257708f5a3d63a501ccc00430e97769",
+      "mrs_bytes": 170,
+      "mrs_sha256": "daecde37238fc2d05b02d6f4cf98958650e57d22e3320ec391ee9572f71e5654",
       "canonical_roundtrip_verified": true
     },
     "GeoRouting_America_South_ccTLD_Domain": {
@@ -370,8 +370,8 @@
       "behavior": "domain",
       "format": "yaml",
       "source_sha256": "0c9f7f991f37b38bdf354b8f56f4de12a6c6957ea2d28a389adc0a8026094f4b",
-      "mrs_bytes": 32322,
-      "mrs_sha256": "43ac379a76b4d4edaf9295689ae187a53fc53d8cc8c9d1acb459add2054ce16f",
+      "mrs_bytes": 32327,
+      "mrs_sha256": "453d48f9d55f06fbacfcef1123be21a5d60e7177b5324496c2ecb9a564cba2a2",
       "canonical_roundtrip_verified": true
     },
     "GlobalDNS_Domain": {
@@ -424,8 +424,8 @@
       "behavior": "domain",
       "format": "yaml",
       "source_sha256": "f4f288806d42beb0d826be0aa4002f567a77d9c298a83752fb4f6f0e52f2cbd9",
-      "mrs_bytes": 1280,
-      "mrs_sha256": "ba92eed11c9dd2f21b11fe0aa04f3c2d8c8524cc066b36283d5b73504848b477",
+      "mrs_bytes": 1282,
+      "mrs_sha256": "1ecdb3c15128d09767648d5d0ed25a3bd9c1329af83bf8cec916855261c1c690",
       "canonical_roundtrip_verified": true
     },
     "Parsec_Domain": {
