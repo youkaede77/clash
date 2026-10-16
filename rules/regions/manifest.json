@@ -1,6 +1,6 @@
 {
   "geoip_url": "https://raw.githubusercontent.com/Loyalsoldier/geoip/release/geoip.dat",
-  "geoip_sha256": "1adaeec24369b866b3398e8d46992f25293fdd7a7bf78135558bd767ac264d8b",
+  "geoip_sha256": "010bfc2e353c5e34e23156004944444ca260bae999e73171bdd7974056557959",
   "converter": "Mihomo Meta v1.19.32 linux amd64 with go1.26.8 Wed Sep 30 16:55:13 UTC 2026\nUse tags: with_gvisor",
   "zstd_window_bytes": 65536,
   "regions": {
