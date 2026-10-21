@@ -490,6 +490,15 @@
       "mrs_bytes": 293,
       "mrs_sha256": "c0befd49dce9164dd5c460355c44895221456d15f79a3410bf0ee8b83a7e101d",
       "canonical_roundtrip_verified": true
+    },
+    "Mobile03_CN_IP": {
+      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geoip/cn.list",
+      "behavior": "ipcidr",
+      "format": "text",
+      "source_sha256": "364a9f1e97a32731f73d43ce2dc07b8d68412ffb128fea90799f071616ef590d",
+      "mrs_bytes": 35173,
+      "mrs_sha256": "41bccaf7dc5a181852cd68cf4e1252a04f708da9e3bb69508fb2b94bdb3c5e8f",
+      "canonical_roundtrip_verified": true
     }
   }
 }

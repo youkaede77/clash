@@ -266,6 +266,11 @@
       "url": "https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@latest/eMuleServer/eMuleServer_IP.yaml",
       "behavior": "ipcidr",
       "format": "yaml"
+    },
+    "Mobile03_CN_IP": {
+      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geoip/cn.list",
+      "behavior": "ipcidr",
+      "format": "text"
     }
   }
 }
