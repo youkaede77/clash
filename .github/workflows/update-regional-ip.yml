@@ -16,6 +16,8 @@ name: Update regional IP rules
       - 'compact-sources.json'
       - 'scripts/build_dns_cn.py'
       - 'scripts/test_dns_cn.py'
+      - 'scripts/build_mobile_rules.py'
+      - 'scripts/test_mobile_rules.py'
 permissions:
   contents: read
 concurrency:
@@ -65,6 +67,8 @@ jobs:
             --output rules/compact
       - name: Recompress official CN DNS rules without changing decoded data
         run: python3 scripts/build_dns_cn.py --output rules/dns-cn
+      - name: Build mobile application rules without ASN-wide matches
+        run: python3 scripts/build_mobile_rules.py --output rules/mobile
       - name: Publish only verified public rules
         shell: bash
         run: |
@@ -72,6 +76,7 @@ jobs:
           git add -- rules/regions/*.mrs rules/regions/manifest.json
           git add -- rules/compact/*.mrs rules/compact/manifest.json
           git add -- rules/dns-cn/cn.mrs rules/dns-cn/manifest.json
+          git add -- rules/mobile/*.yaml rules/mobile/manifest.json
           if git diff --cached --quiet; then exit 0; fi
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'

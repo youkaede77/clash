@@ -1,0 +1,33 @@
+{
+  "filter": "remove IP-ASN only; preserve all other lines and ordering",
+  "providers": {
+    "Facebook_Do_Resolve": {
+      "source_url": "https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@latest/rule/Clash/Facebook/Facebook.yaml",
+      "source_sha256": "c82828bf136de47a26458f2303d3acf2a06aaca2a18c19e67f315387ef977ed0",
+      "removed_asn_rules": [
+        "  - IP-ASN,32934"
+      ],
+      "sha256": "a9c18b6c9179f98ad4c58d85bcc5de8dab6a268189abc6b7ef564540146e1514"
+    },
+    "OpenAI_Do_Resolve": {
+      "source_url": "https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@latest/rule/Clash/OpenAI/OpenAI.yaml",
+      "source_sha256": "cf66c50e7cfbe0aa0e9e249bfa8897d152ae35b38ab6db2936ef62860b7b61b4",
+      "removed_asn_rules": [
+        "  - IP-ASN,20473"
+      ],
+      "sha256": "d51ca5b8c8b0587ebbc1f568affd753c72c398faa574adf92b2b1b2fd10f1a12"
+    },
+    "Telegram_Do_Resolve": {
+      "source_url": "https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@latest/rule/Clash/Telegram/Telegram.yaml",
+      "source_sha256": "e78efc3f18069f1f1e3f88c15cd55f85424367b58ce8474af08c2fdf054704e0",
+      "removed_asn_rules": [
+        "  - IP-ASN,211157",
+        "  - IP-ASN,44907",
+        "  - IP-ASN,59930",
+        "  - IP-ASN,62014",
+        "  - IP-ASN,62041"
+      ],
+      "sha256": "18aa848130b9530bd7e35dbb1a16c4d8e7b15a65905d574cc4a48c5b57f27faf"
+    }
+  }
+}
