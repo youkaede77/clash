@@ -3,68 +3,68 @@
   "regions": {
     "GeoRouting_America_North_GeoIP": {
       "source_regions": {
-        "GeoRouting_America_North_GeoIP": "4881b02a65a860d2ca95db4a0b7bcb9d7f84fbafdba69bd5ff6c110db5c3f881"
+        "GeoRouting_America_North_GeoIP": "b4a9de2fdea9217a59397668ab2b3b77b7969407b140aaca5a4b4eccbc0fbcb5"
       },
       "exact_coverage_verified": true,
-      "mrs_bytes": 504862,
-      "mrs_sha256": "4881b02a65a860d2ca95db4a0b7bcb9d7f84fbafdba69bd5ff6c110db5c3f881"
+      "mrs_bytes": 501804,
+      "mrs_sha256": "b4a9de2fdea9217a59397668ab2b3b77b7969407b140aaca5a4b4eccbc0fbcb5"
     },
     "GeoRouting_America_South_GeoIP": {
       "source_regions": {
-        "GeoRouting_America_South_GeoIP": "4e6f8d5698a346fca06b4a8cf42a7ff8ddc1afd010d7065e732df489d2440018"
+        "GeoRouting_America_South_GeoIP": "fff28e1efc384e7424aa36fd91ca02ec1e86902285078c6ff01e84d74304a9a2"
       },
       "exact_coverage_verified": true,
-      "mrs_bytes": 141087,
-      "mrs_sha256": "4e6f8d5698a346fca06b4a8cf42a7ff8ddc1afd010d7065e732df489d2440018"
+      "mrs_bytes": 141629,
+      "mrs_sha256": "fff28e1efc384e7424aa36fd91ca02ec1e86902285078c6ff01e84d74304a9a2"
     },
     "GeoRouting_Europe_West_GeoIP": {
       "source_regions": {
-        "GeoRouting_Europe_West_GeoIP": "e347772e043618512a2cbb1c08c5445d3c7256616e98c19c9395fbdce3e099ad",
-        "GeoRouting_Europe_East_GeoIP": "15d01580910d9fcd78f9ff6b9a1b7c7cfe3686fcdee428cd24d17b0d6bbdd9d5"
+        "GeoRouting_Europe_West_GeoIP": "41699917380b77e8c0cea303f1070ad75508c90cee5616cfaecd23a7901fa4d3",
+        "GeoRouting_Europe_East_GeoIP": "28943f507c5564b3b5dd913081f094de98cd9df6e20f172ca37c23714b48fda0"
       },
       "exact_coverage_verified": true,
-      "mrs_bytes": 463457,
-      "mrs_sha256": "732482455eda75ff2cc9a31f9ed32b0f09882763a189996ec186c7db91748ad3"
+      "mrs_bytes": 460434,
+      "mrs_sha256": "fcbe400bc5ddd6e0f7a0e6a550e41ec2b15d1d00552f7a60c1df1b487886acd4"
     },
     "GeoRouting_Oceania_GeoIP": {
       "source_regions": {
-        "GeoRouting_Oceania_GeoIP": "a42d8ac17cb1c7707033259b1974fd7f82a449ff0e5fbca0117ca1a3173fa2f2",
+        "GeoRouting_Oceania_GeoIP": "85d95c785b3a2e13b365b20509893744dc419197e54c3a371bef5b1c95938067",
         "GeoRouting_Antarctic_GeoIP": "1f9c62937c0113541a77b7d2d516394b99818b6dd0f4c964ba3915d1c936bd2e"
       },
       "exact_coverage_verified": true,
-      "mrs_bytes": 98945,
-      "mrs_sha256": "11829d9b434d6520116d3a69b83ab9f7d957e9746c9f4790e1b8cfa7ebf6e943"
+      "mrs_bytes": 98839,
+      "mrs_sha256": "120dae6a30bada19ed2d99e0e0d5006ac620f21c83066d6b4e6e7a9e2a0e6874"
     },
     "GeoRouting_Asia_East_GeoIP": {
       "source_regions": {
-        "GeoRouting_Asia_East_GeoIP": "62cb279652d51b20e267091325647cf42ce5c24a8b92d926c18b8009a9da845d",
-        "GeoRouting_Asia_EastSouth_GeoIP": "c5c2ab13505ed48deab5853d6e792013e11745ce383166cea9fc238cf8a7d05e",
-        "GeoRouting_Asia_South_GeoIP": "eff75ca87f25842c23bd62a5f80c4f71eea16dc87f47973f84cc15cff9a2ab9d",
-        "GeoRouting_Asia_Central_GeoIP": "e99c386b9fa0ff281bed65bf2b5638457d9286ede3238b9ccdd1854d3a34bf16"
+        "GeoRouting_Asia_East_GeoIP": "ecf3ae97f0798ac3f476087289f579a62b24b2ec9132b784910e8f3d80c74f40",
+        "GeoRouting_Asia_EastSouth_GeoIP": "0060b2da9f951f9e356b054990cbaee65df09aa34b3c7da08aac37e1ed85d7da",
+        "GeoRouting_Asia_South_GeoIP": "7bb2b7bd81ad2f5fdec1cc2b0924a73529be69d8befdf46ddfe63bbd81723d17",
+        "GeoRouting_Asia_Central_GeoIP": "622f80c2c376d9d04548ab123a7346c9706eb9f67402f4ad427b2cf8ed0f9ead"
       },
       "exact_coverage_verified": true,
-      "mrs_bytes": 311736,
-      "mrs_sha256": "0e7bf7356246aee8a5702f63ffd7c0676544d80e1c20e2a0f015a7d39f5d3c45"
+      "mrs_bytes": 312161,
+      "mrs_sha256": "280579e6146b8bc811f3dd6c1f75cac9fc55a9f893dbb915b83e905faea2d95a"
     },
     "GeoRouting_Asia_West_GeoIP": {
       "source_regions": {
-        "GeoRouting_Asia_West_GeoIP": "2789a292a94376fdffa45564bc3b69b55087d4acbfc3724210db88cabbdbcd15"
+        "GeoRouting_Asia_West_GeoIP": "f41742e0f1f14a829b1f99b35071675cc8210f61bbf6d417f0f448ec91f28e69"
       },
       "exact_coverage_verified": true,
-      "mrs_bytes": 119436,
-      "mrs_sha256": "2789a292a94376fdffa45564bc3b69b55087d4acbfc3724210db88cabbdbcd15"
+      "mrs_bytes": 120129,
+      "mrs_sha256": "f41742e0f1f14a829b1f99b35071675cc8210f61bbf6d417f0f448ec91f28e69"
     },
     "GeoRouting_Africa_North_GeoIP": {
       "source_regions": {
-        "GeoRouting_Africa_North_GeoIP": "ef3c84b13fd0a588690d0bb5f03921d42277e08018bce29ffb73a2660da97ae9",
-        "GeoRouting_Africa_South_GeoIP": "288557715d7af77078bf4ea396547ec98e12e919c58d1457330d5477b1f9196a",
-        "GeoRouting_Africa_West_GeoIP": "79637c9d99fe1556753e0299f07334fc603c3b6a3b061a44d83bf4762a0cbc3a",
-        "GeoRouting_Africa_East_GeoIP": "4f19f1d2806709748f469750083ebd10685df5dac49025d4ec8c853fb743d090",
-        "GeoRouting_Africa_Central_GeoIP": "e1322392503fc4ea38f50b76d1ee137f2298a1b5291dc7d3c9f6fd1765ae3126"
+        "GeoRouting_Africa_North_GeoIP": "598a0f52d9e626a98b80aef4ee4cb12d18de8f7dbfcb14d0aa6fdad16a52e05b",
+        "GeoRouting_Africa_South_GeoIP": "cf5d6e6e53cfffdf2c1c363d74dc78861a23a811d956fb1e9f1f0fcb00f2efc8",
+        "GeoRouting_Africa_West_GeoIP": "e7f33b3cdaa8d3c3bbcbe9e722d566c275c7accb4cf1aa1d6c413d7a36e95caa",
+        "GeoRouting_Africa_East_GeoIP": "53cb44fd61e22f9e4173622693b17e501b723f52babc53a7785323a5987768c5",
+        "GeoRouting_Africa_Central_GeoIP": "3221bdbb40b37e51b067993ceb621c8f7f8330c38485f5863c5db4e1816fa07d"
       },
       "exact_coverage_verified": true,
-      "mrs_bytes": 70538,
-      "mrs_sha256": "89b83b30053bb57c406eebccfb2f701d950ce9e4948843973487320489975c9f"
+      "mrs_bytes": 70693,
+      "mrs_sha256": "a1bfb51203aa001cd824258753d64bb28b2ad9707077362987526353a0da17bf"
     }
   },
   "providers": {
@@ -495,9 +495,9 @@
       "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geoip/cn.list",
       "behavior": "ipcidr",
       "format": "text",
-      "source_sha256": "364a9f1e97a32731f73d43ce2dc07b8d68412ffb128fea90799f071616ef590d",
-      "mrs_bytes": 34965,
-      "mrs_sha256": "7a3df793ecba1f327717bb341857a84da4e78b71a07bdbb872fe4b3bb82403af",
+      "source_sha256": "6af33186c19635a253a2617aa594a4050f96ecd052874d4bd51a4ace0025153d",
+      "mrs_bytes": 34914,
+      "mrs_sha256": "5f1868e6be40e944bcce926bdfc91b0cc29477c7bea0949a58125d1c9e446e5c",
       "canonical_roundtrip_verified": true
     }
   }

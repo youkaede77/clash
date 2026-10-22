@@ -1,6 +1,6 @@
 {
   "geoip_url": "https://raw.githubusercontent.com/Loyalsoldier/geoip/release/geoip.dat",
-  "geoip_sha256": "4a1b1eddabf5614fa51dd93ac0498856cb82dd65933cd6d6d5890d8c7bb5e902",
+  "geoip_sha256": "a21bacd4e378bfec3bfb5426c08fd995d78ed31f6a44180c9449a61be185f85f",
   "converter": "Mihomo Meta v1.19.32 linux amd64 with go1.26.8 Wed Sep 30 16:55:13 UTC 2026\nUse tags: with_gvisor",
   "zstd_window_bytes": 65536,
   "regions": {
@@ -50,10 +50,10 @@
       ],
       "mapping_url": "https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@latest/GeoRouting_For_IP/GeoRouting_America_North_GeoIP.yaml",
       "mapping_sha256": "ffc308819d6deb19317dd4a29ce562e25b2e7de68c0e232b89e40bcc9ad56485",
-      "input_prefixes": 311400,
-      "merged_prefixes": 258051,
-      "mrs_bytes": 504862,
-      "mrs_sha256": "4881b02a65a860d2ca95db4a0b7bcb9d7f84fbafdba69bd5ff6c110db5c3f881",
+      "input_prefixes": 311025,
+      "merged_prefixes": 257434,
+      "mrs_bytes": 501804,
+      "mrs_sha256": "b4a9de2fdea9217a59397668ab2b3b77b7969407b140aaca5a4b4eccbc0fbcb5",
       "exact_coverage_verified": true
     },
     "GeoRouting_America_South_GeoIP": {
@@ -75,10 +75,10 @@
       ],
       "mapping_url": "https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@latest/GeoRouting_For_IP/GeoRouting_America_South_GeoIP.yaml",
       "mapping_sha256": "d15f19b995bb081888cdc6989749c864e4c2598d5b29f8406e01014eca85eaa7",
-      "input_prefixes": 50317,
-      "merged_prefixes": 41267,
-      "mrs_bytes": 141087,
-      "mrs_sha256": "4e6f8d5698a346fca06b4a8cf42a7ff8ddc1afd010d7065e732df489d2440018",
+      "input_prefixes": 50149,
+      "merged_prefixes": 41091,
+      "mrs_bytes": 141629,
+      "mrs_sha256": "fff28e1efc384e7424aa36fd91ca02ec1e86902285078c6ff01e84d74304a9a2",
       "exact_coverage_verified": true
     },
     "GeoRouting_Europe_West_GeoIP": {
@@ -119,10 +119,10 @@
       ],
       "mapping_url": "https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@latest/GeoRouting_For_IP/GeoRouting_Europe_West_GeoIP.yaml",
       "mapping_sha256": "77c5d3d2f3fe0d4f7431c0b187421df4f9855ca590cedf1cda4b5b3020dd9a8e",
-      "input_prefixes": 387229,
-      "merged_prefixes": 203959,
-      "mrs_bytes": 478768,
-      "mrs_sha256": "e347772e043618512a2cbb1c08c5445d3c7256616e98c19c9395fbdce3e099ad",
+      "input_prefixes": 387473,
+      "merged_prefixes": 204058,
+      "mrs_bytes": 480163,
+      "mrs_sha256": "41699917380b77e8c0cea303f1070ad75508c90cee5616cfaecd23a7901fa4d3",
       "exact_coverage_verified": true
     },
     "GeoRouting_Europe_East_GeoIP": {
@@ -151,10 +151,10 @@
       ],
       "mapping_url": "https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@latest/GeoRouting_For_IP/GeoRouting_Europe_East_GeoIP.yaml",
       "mapping_sha256": "9a7e78742f3cd7573a161c4d651784f06c1cbef36fab5ccd739d747e79109df3",
-      "input_prefixes": 82751,
-      "merged_prefixes": 70614,
-      "mrs_bytes": 248305,
-      "mrs_sha256": "15d01580910d9fcd78f9ff6b9a1b7c7cfe3686fcdee428cd24d17b0d6bbdd9d5",
+      "input_prefixes": 82987,
+      "merged_prefixes": 70810,
+      "mrs_bytes": 245654,
+      "mrs_sha256": "28943f507c5564b3b5dd913081f094de98cd9df6e20f172ca37c23714b48fda0",
       "exact_coverage_verified": true
     },
     "GeoRouting_Oceania_GeoIP": {
@@ -190,10 +190,10 @@
       ],
       "mapping_url": "https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@latest/GeoRouting_For_IP/GeoRouting_Oceania_GeoIP.yaml",
       "mapping_sha256": "5c9c0a3a3d51f90dba6123e6fa02ad5403bc220dd67e085a9179a3feb5b663c3",
-      "input_prefixes": 26610,
-      "merged_prefixes": 24447,
-      "mrs_bytes": 94667,
-      "mrs_sha256": "a42d8ac17cb1c7707033259b1974fd7f82a449ff0e5fbca0117ca1a3173fa2f2",
+      "input_prefixes": 26270,
+      "merged_prefixes": 24133,
+      "mrs_bytes": 94942,
+      "mrs_sha256": "85d95c785b3a2e13b365b20509893744dc419197e54c3a371bef5b1c95938067",
       "exact_coverage_verified": true
     },
     "GeoRouting_Antarctic_GeoIP": {
@@ -222,10 +222,10 @@
       ],
       "mapping_url": "https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@latest/GeoRouting_For_IP/GeoRouting_Asia_East_GeoIP.yaml",
       "mapping_sha256": "704889fd6d3df036e4668e4edcb5c008915c58f836e96593ea43043cb7ea9232",
-      "input_prefixes": 46122,
-      "merged_prefixes": 41971,
-      "mrs_bytes": 164987,
-      "mrs_sha256": "62cb279652d51b20e267091325647cf42ce5c24a8b92d926c18b8009a9da845d",
+      "input_prefixes": 45903,
+      "merged_prefixes": 41742,
+      "mrs_bytes": 163820,
+      "mrs_sha256": "ecf3ae97f0798ac3f476087289f579a62b24b2ec9132b784910e8f3d80c74f40",
       "exact_coverage_verified": true
     },
     "GeoRouting_Asia_EastSouth_GeoIP": {
@@ -244,10 +244,10 @@
       ],
       "mapping_url": "https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@latest/GeoRouting_For_IP/GeoRouting_Asia_EastSouth_GeoIP.yaml",
       "mapping_sha256": "1e6a51b4238746bbc89af80da877dea8da9247987c68c12b1b081a7a1d4da777",
-      "input_prefixes": 42432,
-      "merged_prefixes": 38602,
-      "mrs_bytes": 152860,
-      "mrs_sha256": "c5c2ab13505ed48deab5853d6e792013e11745ce383166cea9fc238cf8a7d05e",
+      "input_prefixes": 42878,
+      "merged_prefixes": 39068,
+      "mrs_bytes": 154438,
+      "mrs_sha256": "0060b2da9f951f9e356b054990cbaee65df09aa34b3c7da08aac37e1ed85d7da",
       "exact_coverage_verified": true
     },
     "GeoRouting_Asia_South_GeoIP": {
@@ -264,10 +264,10 @@
       ],
       "mapping_url": "https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@latest/GeoRouting_For_IP/GeoRouting_Asia_South_GeoIP.yaml",
       "mapping_sha256": "901a2c7c78bbb9775db08dbe0c7837360bbcd67b56803fee68c78265ff8b4f75",
-      "input_prefixes": 30378,
-      "merged_prefixes": 28935,
-      "mrs_bytes": 110653,
-      "mrs_sha256": "eff75ca87f25842c23bd62a5f80c4f71eea16dc87f47973f84cc15cff9a2ab9d",
+      "input_prefixes": 30578,
+      "merged_prefixes": 29194,
+      "mrs_bytes": 111919,
+      "mrs_sha256": "7bb2b7bd81ad2f5fdec1cc2b0924a73529be69d8befdf46ddfe63bbd81723d17",
       "exact_coverage_verified": true
     },
     "GeoRouting_Asia_Central_GeoIP": {
@@ -280,10 +280,10 @@
       ],
       "mapping_url": "https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@latest/GeoRouting_For_IP/GeoRouting_Asia_Central_GeoIP.yaml",
       "mapping_sha256": "2dc89d8c2055505f898191dd2fdb8f3cf599ccc9bfcdb920a0573ecff8bb613f",
-      "input_prefixes": 4038,
-      "merged_prefixes": 3966,
-      "mrs_bytes": 20363,
-      "mrs_sha256": "e99c386b9fa0ff281bed65bf2b5638457d9286ede3238b9ccdd1854d3a34bf16",
+      "input_prefixes": 4053,
+      "merged_prefixes": 3981,
+      "mrs_bytes": 20421,
+      "mrs_sha256": "622f80c2c376d9d04548ab123a7346c9706eb9f67402f4ad427b2cf8ed0f9ead",
       "exact_coverage_verified": true
     },
     "GeoRouting_Asia_West_GeoIP": {
@@ -309,10 +309,10 @@
       ],
       "mapping_url": "https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@latest/GeoRouting_For_IP/GeoRouting_Asia_West_GeoIP.yaml",
       "mapping_sha256": "4dbe1262c0db827dcc8578fe58ead6b4460c6f02096c546be3550c79f68b341c",
-      "input_prefixes": 31009,
-      "merged_prefixes": 29586,
-      "mrs_bytes": 119436,
-      "mrs_sha256": "2789a292a94376fdffa45564bc3b69b55087d4acbfc3724210db88cabbdbcd15",
+      "input_prefixes": 30577,
+      "merged_prefixes": 29165,
+      "mrs_bytes": 120129,
+      "mrs_sha256": "f41742e0f1f14a829b1f99b35071675cc8210f61bbf6d417f0f448ec91f28e69",
       "exact_coverage_verified": true
     },
     "GeoRouting_Africa_North_GeoIP": {
@@ -327,10 +327,10 @@
       ],
       "mapping_url": "https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@latest/GeoRouting_For_IP/GeoRouting_Africa_North_GeoIP.yaml",
       "mapping_sha256": "873986b320cdeb592e0d84591f85d30f0e411b809b03a50158214c4d5eb2e43f",
-      "input_prefixes": 2905,
-      "merged_prefixes": 2840,
-      "mrs_bytes": 12414,
-      "mrs_sha256": "ef3c84b13fd0a588690d0bb5f03921d42277e08018bce29ffb73a2660da97ae9",
+      "input_prefixes": 2903,
+      "merged_prefixes": 2838,
+      "mrs_bytes": 12433,
+      "mrs_sha256": "598a0f52d9e626a98b80aef4ee4cb12d18de8f7dbfcb14d0aa6fdad16a52e05b",
       "exact_coverage_verified": true
     },
     "GeoRouting_Africa_South_GeoIP": {
@@ -345,10 +345,10 @@
       ],
       "mapping_url": "https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@latest/GeoRouting_For_IP/GeoRouting_Africa_South_GeoIP.yaml",
       "mapping_sha256": "8cb403b5f319a45c907fef3b9d9851e3c5bb1e367c9be6b36fb930a535ae7905",
-      "input_prefixes": 6770,
-      "merged_prefixes": 6621,
-      "mrs_bytes": 27008,
-      "mrs_sha256": "288557715d7af77078bf4ea396547ec98e12e919c58d1457330d5477b1f9196a",
+      "input_prefixes": 6827,
+      "merged_prefixes": 6678,
+      "mrs_bytes": 27215,
+      "mrs_sha256": "cf5d6e6e53cfffdf2c1c363d74dc78861a23a811d956fb1e9f1f0fcb00f2efc8",
       "exact_coverage_verified": true
     },
     "GeoRouting_Africa_West_GeoIP": {
@@ -372,10 +372,10 @@
       ],
       "mapping_url": "https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@latest/GeoRouting_For_IP/GeoRouting_Africa_West_GeoIP.yaml",
       "mapping_sha256": "58684b01103af5084fc1fbf2849ab774ec47adf4b0f899b1b360d8bee537227b",
-      "input_prefixes": 4903,
-      "merged_prefixes": 4595,
-      "mrs_bytes": 19497,
-      "mrs_sha256": "79637c9d99fe1556753e0299f07334fc603c3b6a3b061a44d83bf4762a0cbc3a",
+      "input_prefixes": 4911,
+      "merged_prefixes": 4602,
+      "mrs_bytes": 19492,
+      "mrs_sha256": "e7f33b3cdaa8d3c3bbcbe9e722d566c275c7accb4cf1aa1d6c413d7a36e95caa",
       "exact_coverage_verified": true
     },
     "GeoRouting_Africa_East_GeoIP": {
@@ -402,10 +402,10 @@
       ],
       "mapping_url": "https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@latest/GeoRouting_For_IP/GeoRouting_Africa_East_GeoIP.yaml",
       "mapping_sha256": "6c9e2a78f3613d19d3c8784b5be6d9cc1850283b3ff90024e0e193dd7e757d1a",
-      "input_prefixes": 10356,
-      "merged_prefixes": 9669,
-      "mrs_bytes": 33707,
-      "mrs_sha256": "4f19f1d2806709748f469750083ebd10685df5dac49025d4ec8c853fb743d090",
+      "input_prefixes": 10429,
+      "merged_prefixes": 9727,
+      "mrs_bytes": 34356,
+      "mrs_sha256": "53cb44fd61e22f9e4173622693b17e501b723f52babc53a7785323a5987768c5",
       "exact_coverage_verified": true
     },
     "GeoRouting_Africa_Central_GeoIP": {
@@ -422,10 +422,10 @@
       ],
       "mapping_url": "https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@latest/GeoRouting_For_IP/GeoRouting_Africa_Central_GeoIP.yaml",
       "mapping_sha256": "2bd845f36ff3b15374127a406409cb34187a7f77c0a9437e964fab909246d92e",
-      "input_prefixes": 2084,
-      "merged_prefixes": 1976,
-      "mrs_bytes": 8502,
-      "mrs_sha256": "e1322392503fc4ea38f50b76d1ee137f2298a1b5291dc7d3c9f6fd1765ae3126",
+      "input_prefixes": 2099,
+      "merged_prefixes": 1992,
+      "mrs_bytes": 8726,
+      "mrs_sha256": "3221bdbb40b37e51b067993ceb621c8f7f8330c38485f5863c5db4e1816fa07d",
       "exact_coverage_verified": true
     }
   }
