@@ -495,9 +495,9 @@
       "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geoip/cn.list",
       "behavior": "ipcidr",
       "format": "text",
-      "source_sha256": "6af33186c19635a253a2617aa594a4050f96ecd052874d4bd51a4ace0025153d",
-      "mrs_bytes": 34914,
-      "mrs_sha256": "5f1868e6be40e944bcce926bdfc91b0cc29477c7bea0949a58125d1c9e446e5c",
+      "source_sha256": "12c21c88f0656d209ad048059c3f51caf3a832a7b6ddf6d8d060d7379c12a616",
+      "mrs_bytes": 34991,
+      "mrs_sha256": "2f41189906963a8236abdbc93d76057a7ac4198d73bd3c18509f7e68a8524b3f",
       "canonical_roundtrip_verified": true
     }
   }
